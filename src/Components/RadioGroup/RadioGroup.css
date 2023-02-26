@@ -1,0 +1,52 @@
+
+
+.radioContainer{
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+}
+.radioGroup{
+    border: 3px solid transparent;
+    width: 25rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.card{
+    width: 7rem;
+    transition: 0.3s ease-in-out;
+}
+.radioGroupActive{
+    border: 3px solid rgb(92, 119, 255);
+    background-color: rgb(92, 119, 255, 0.2);
+}
+.radioGroupActive .card{
+    transform: scale(1.07);
+}
+.radioGroup:hover{
+    background-color: rgb(92, 119, 255, 0.2);
+}
+.radioGroup:hover .card{
+    transform: scale(1.07);
+}
+.feature{
+    display: flex;
+    align-items: center;
+}
+.feature>h5{
+    font-size: 1rem;
+}
+.radioIcon{
+    margin-right: 1rem;
+    color: rgb(92, 119, 255);
+}
+
+
+
+

@@ -1,0 +1,14 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  width: 100vw;
+  height: 100vh;
+
+/* background: linear-gradient(45deg, hsla(48, 78%, 82%, 1) 0%, hsla(340, 87%, 59%, 1) 100%); */
+  overflow: hidden;
+}
+.App{
+  margin-top: 9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

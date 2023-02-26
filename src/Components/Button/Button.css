@@ -1,0 +1,64 @@
+.uploadBtn{
+    border: none;
+    padding: 10px 20px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #285EFE;
+    color: white;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+    max-width: 12rem;
+    width: 100%;
+}
+.btnDisable{
+    background-color: #6a89e3;
+    cursor: no-drop;
+}
+.iconContainer{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+}
+.uploadIcon{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.tickIcon{
+    width: 2rem;
+    height: 2rem;
+    animation: 0.4s linear 0s scale;
+    background-color: #93dfc1;
+    border-radius: 50%;
+    padding: 1.5px 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@keyframes scale {
+    0% {
+        transform: scale(0);
+    }
+    80%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1.0);
+    }
+}
+@keyframes move {
+    from {
+        transform: translate(0px, 2px);
+    }
+    to {
+        transform: translate(0px, -20px);
+    }
+  }

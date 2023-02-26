@@ -1,0 +1,81 @@
+
+.toggleContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(152, 214, 238);
+    width: 100%;
+    height: 100vh;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    position: relative;
+    margin-top: 2rem;
+}
+.sunIcon, .moonIcon{
+    position: absolute;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin-top: 4rem;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+   .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 5px solid rgb(235, 168, 24);
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 12px;
+    width: 12px;
+    left: 1.2px;
+    bottom: 2.1px;
+    border: 5px solid rgb(235, 168, 24);
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    border: 5px solid rgb(192, 192, 255);
+  }
+  input:checked + .slider:before {
+    border: 5px solid rgb(192, 192, 255);
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+
+
+

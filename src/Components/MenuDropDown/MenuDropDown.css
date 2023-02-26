@@ -1,0 +1,67 @@
+
+.dropDownContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    position: relative;
+}
+.dropDownButton{
+    width: 7rem;
+    height: 2.5rem;
+    padding: 2px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(156, 34, 186);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.dropDownButton:hover{
+    background-color: rgb(139, 24, 167);
+}
+.dropDownItems{
+    position: absolute;
+    top: 2rem;
+    padding: 0;
+    width: 15rem;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+    overflow: hidden;
+    padding: 5px;
+}
+
+
+
+.items{
+    list-style: none;
+    color: rgba(112,34,195,1);
+    display: flex;
+    align-items: center;
+    padding: 10px 6px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+.items:nth-child(even){
+    border-bottom: 0.3px solid #e5e7eb;
+}
+.menuText{
+    color: rgb(39, 39, 39);
+    font-size: 0.9rem;
+    margin-left: 8px;
+}
+.items:hover{
+    background-color: rgba(112,34,195,1);
+    opacity: 0.7;
+    color: white;
+}
+.items:hover .menuText{
+    color: white;
+}

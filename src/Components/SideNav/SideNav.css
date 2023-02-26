@@ -1,0 +1,93 @@
+.sidenavContainer{
+    width: 15rem;
+    border: 1px solid red;
+    height: auto;
+    font-family: 'Work Sans', sans-serif;
+    padding: 1rem;
+    position: relative;
+    left: 0%;
+}
+.menuItems{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    list-style: none;
+    padding: 8px;
+    margin: 5px 0px;
+    cursor: pointer;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.collapseIcon{
+    right: -14px;
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 50;
+}
+.menuItemContainer{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.menuDropDown{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+}
+.menuDropDownItems{
+    padding: 0px;
+    padding-left: 1.5rem;
+}
+.menuIcon{
+    margin-right: 7px;
+}
+.menu:active, .menu:hover{
+    font-weight: 500;
+    background-color: rgb(235, 251, 255);
+}
+.uploadImg{
+    margin-top: 5rem;
+    border: 2px dashed rgb(205, 205, 205);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+}
+.theme{
+    margin-top: 2rem;
+    display: flex;
+    background-color: rgb(230, 230, 230);
+    border-radius: 20px;
+    padding: 5px;
+    color: white;
+    
+}
+.btn{
+    width:10rem;
+    font: inherit;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    background-color: transparent;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 5px;
+}
+.btn-active{
+    background-color: white;
+}
