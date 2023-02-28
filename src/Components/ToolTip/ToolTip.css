@@ -1,0 +1,37 @@
+.toolItems{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+    color: rgb(78, 77, 77);
+
+}
+.Toolitem{
+    position: relative;
+    display: flex;
+    border: 1px solid rgb(180, 180, 180);
+    align-items: center;
+    justify-content: space-between;
+    line-height: 0px;
+    padding: 10px 2rem;
+    grid-gap: 15px;
+    border-radius: 10px;
+}
+.toolTip{
+    position: absolute;
+    width: 80%;
+    height: 50%;
+    right: -90%;
+    top: 6%;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 0.8rem;
+}
+.tool{
+    background-color: black;
+    height: 5rem;
+    width: 10rem;
+}
