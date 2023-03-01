@@ -11,6 +11,7 @@ import Tabs from './Components/Tabs/Tabs';
 import Toggle from './Components/Toggle/Toggle';
 import Filter from './Components/Filter/Filter'
 import ToolTip from './Components/ToolTip/ToolTip';
+import SearchDropDown from './Components/SearchDropDown/SearchDropDown';
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
       {/* <RadioGroup/> */}
       {/* <SearchBar/> */}
       {/* <Filter/> */}
-      <ToolTip/>
+      {/* <ToolTip/> */}
+      <SearchDropDown/>
     </div>
   );
 }

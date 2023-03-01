@@ -39,13 +39,6 @@
     color: white;
     font-size: 0.9rem;
 }
-
-
-
-
-
-
-
 .toolTip::before{
     content: '';
     width: 1rem;
