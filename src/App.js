@@ -12,6 +12,7 @@ import Toggle from './Components/Toggle/Toggle';
 import Filter from './Components/Filter/Filter'
 import ToolTip from './Components/ToolTip/ToolTip';
 import SearchDropDown from './Components/SearchDropDown/SearchDropDown';
+import FormInput from './Components/Validation/Validation';
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
       {/* <SearchBar/> */}
       {/* <Filter/> */}
       {/* <ToolTip/> */}
-      <SearchDropDown/>
+      {/* <SearchDropDown/> */}
+      <FormInput/>
     </div>
   );
 }
