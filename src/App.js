@@ -1,5 +1,4 @@
 import './App.css';
-import AddTag from './Components/AddTag/AddTag';
 import Button from './Components/Button/Button';
 import ListBox from './Components/ListBox/ListBox';
 import MenuDropDown from './Components/MenuDropDown/MenuDropDown';
