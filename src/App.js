@@ -13,6 +13,7 @@ import ToolTip from './Components/ToolTip/ToolTip';
 import SearchDropDown from './Components/SearchDropDown/SearchDropDown';
 import FormInput from './Components/Validation/Validation';
 import AddTags from './Components/AddTags/AddTags';
+import ColorPicker from './Components/ColorPicker/ColorPicker';
 
 function App() {
   return (
@@ -31,7 +32,8 @@ function App() {
       {/* <ToolTip/> */}
       {/* <SearchDropDown/> */}
       {/* <FormInput/> */}
-      <AddTags/>
+      {/* <AddTags/> */}
+      <ColorPicker/>
     </div>
   );
 }

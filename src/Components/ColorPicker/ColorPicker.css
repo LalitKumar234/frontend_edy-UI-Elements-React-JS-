@@ -1,0 +1,95 @@
+
+.colorPickerContainer{
+    width: 20rem;
+    height: auto;
+    font-family: 'Work Sans', sans-serif;
+}
+.colorBox{
+    background-color: #7147F7;
+    width: 100%;
+    height: 20rem;
+    border-radius: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 
+    0px 7px 29px 0px;
+}
+.colorPalatte{
+    background-color: white;
+    width: 100%;
+    height: auto;
+    margin-top: -7rem;
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 5px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+}
+.color{
+    width: 4rem;
+    height: 4rem;
+    cursor: pointer;
+    margin: 10px 8px;
+    border-radius: 10px;
+}
+
+
+
+
+
+.inputBox{
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
+.hex{
+    font-weight: 600;
+    background-color: #cccaca;
+    height: 2.1rem;
+    padding: 2px 7px;
+    display: flex;
+    align-items: center;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+}
+.colorInput{
+    border: 1px solid #cccaca;
+    width: 5rem;
+    height: 2rem;
+    font: inherit;
+    font-weight: 600;
+    color: #1F2667;
+    padding: 2px 6px;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.colorInput:focus{
+    outline: none;
+}
+
+
+
+
+
+
+
+
+#c1{
+    background-color: #FEC971;
+}
+#c2{
+    background-color: #FE9B71;
+}
+#c3{
+    background-color: #B592FD;
+}
+#c4{
+    background-color: #00D4FE;
+}
+#c5{
+    background-color: #E3EE8E;
+}
+#c6{
+    background-color: #a5f747;
+
+}
