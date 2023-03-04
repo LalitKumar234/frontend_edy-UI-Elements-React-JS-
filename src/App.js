@@ -12,6 +12,7 @@ import Filter from './Components/Filter/Filter'
 import ToolTip from './Components/ToolTip/ToolTip';
 import SearchDropDown from './Components/SearchDropDown/SearchDropDown';
 import FormInput from './Components/Validation/Validation';
+import AddTags from './Components/AddTags/AddTags';
 
 function App() {
   return (
@@ -29,7 +30,8 @@ function App() {
       {/* <Filter/> */}
       {/* <ToolTip/> */}
       {/* <SearchDropDown/> */}
-      <FormInput/>
+      {/* <FormInput/> */}
+      <AddTags/>
     </div>
   );
 }

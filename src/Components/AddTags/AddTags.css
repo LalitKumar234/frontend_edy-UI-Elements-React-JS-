@@ -1,0 +1,52 @@
+.addTagBox{
+    width: 30rem;
+    height: auto;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: rgba(17, 12, 46, 0.15) 
+    0px 48px 100px 0px;
+    box-sizing: border-box;
+    padding: 1rem;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+}
+.addTagBox > h5{
+    margin: 0;
+    color: #282828;
+    font-size: 1rem;
+}
+.addTagInput{
+    margin-top: 1rem;
+    display: flex;
+    grid-gap: 10px;
+    flex-wrap: wrap;
+}
+.inputTag{
+    border: none;
+    font: inherit;
+    max-width: 6rem;
+}
+.inputTag:focus{
+    outline: none;
+}
+
+
+.tags{
+    background-color: #ECECF8;
+    padding: 5px 10px;
+    border-radius: 50px;
+    display: flex;
+    grid-gap: 5px;
+    align-items: center;
+}
+.crossIcon{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 1rem;
+    padding: 2px;
+    cursor: pointer;
+}
+
+
