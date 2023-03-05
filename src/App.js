@@ -14,6 +14,7 @@ import SearchDropDown from './Components/SearchDropDown/SearchDropDown';
 import FormInput from './Components/Validation/Validation';
 import AddTags from './Components/AddTags/AddTags';
 import ColorPicker from './Components/ColorPicker/ColorPicker';
+import CopyToClipBoard from './Components/CopyToClipBoard/CopyToClipBoard';
 
 function App() {
   return (
@@ -33,7 +34,8 @@ function App() {
       {/* <SearchDropDown/> */}
       {/* <FormInput/> */}
       {/* <AddTags/> */}
-      <ColorPicker/>
+      {/* <ColorPicker/> */}
+      <CopyToClipBoard/>
     </div>
   );
 }

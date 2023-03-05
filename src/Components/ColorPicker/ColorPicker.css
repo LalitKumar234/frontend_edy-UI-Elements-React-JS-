@@ -32,11 +32,6 @@
     margin: 10px 8px;
     border-radius: 10px;
 }
-
-
-
-
-
 .inputBox{
     display: flex;
     align-items: center;
@@ -66,14 +61,6 @@
 .colorInput:focus{
     outline: none;
 }
-
-
-
-
-
-
-
-
 #c1{
     background-color: #FEC971;
 }

@@ -1,0 +1,43 @@
+
+.codeBox{
+    background-color: #011627;
+    width: 30rem;
+    height: 2rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    position: relative;
+}
+.copyContainer{
+    color: white;
+}
+.copyIcon{
+    color: white;
+    cursor: pointer;
+}
+.copiedAlert{
+    position: absolute;
+    background-color: aliceblue;
+    bottom: -5rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    max-width: 15rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 8px;
+    border-radius: 5px;
+    border-left: 4px solid rgb(106, 194, 89);
+    transform: translate(0px, 20px);
+}
+.check{
+    color: rgb(106, 194, 89);
+    display: flex;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+}
