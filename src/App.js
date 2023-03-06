@@ -15,6 +15,7 @@ import FormInput from './Components/Validation/Validation';
 import AddTags from './Components/AddTags/AddTags';
 import ColorPicker from './Components/ColorPicker/ColorPicker';
 import CopyToClipBoard from './Components/CopyToClipBoard/CopyToClipBoard';
+import Notifications from './Components/Notifications/Notifications';
 
 function App() {
   return (
@@ -35,7 +36,8 @@ function App() {
       {/* <FormInput/> */}
       {/* <AddTags/> */}
       {/* <ColorPicker/> */}
-      <CopyToClipBoard/>
+      {/* <CopyToClipBoard/> */}
+      <Notifications/>
     </div>
   );
 }

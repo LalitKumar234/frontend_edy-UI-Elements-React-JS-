@@ -3,15 +3,16 @@ body{
   width: 100vw;
   height: 100vh;
   /* background-color: #1E1E1E; */
-  background-color: #cccccc;
+  background-color: #FAFAFE;
 
 /* background: linear-gradient(45deg, hsla(48, 78%, 82%, 1) 0%, hsla(340, 87%, 59%, 1) 100%); */
   overflow: hidden;
 }
 .App{
-  margin-top: 15rem;
+  margin-top: 5rem;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
+  
   
 }

@@ -1,0 +1,81 @@
+
+.notificationContainer{
+    position: relative;
+    display: flex;
+    justify-content: end;
+    margin-right: 4rem;
+}
+.notifyIcon{
+    background-color: #161545;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.notificationBox{
+    top: 3.2rem;
+    position: absolute;
+    width: 23rem;
+    background-color: white;
+    height: 23rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 1.7rem;
+}
+.notificationsHeader > h4{
+    color: #161545; 
+}
+.user{
+    display: flex;
+    grid-gap: 2rem;
+    border-top: 1px solid #D7D7DB;
+    padding: 1.2rem 0;
+}
+.photoURL>img{
+    width: 4rem;
+    height: 4rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.buttons{
+    margin-top: 1rem;
+    display: flex;
+    grid-gap: 10px;
+}
+.cta-btn{
+    font: inherit;
+    background-color: transparent;
+    border: 1px solid #c8c8c9;
+    color: #c8c8c9;
+    max-width: 6rem;
+    height: 3rem;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.accept{
+    color: white;
+    border: none;
+    background-color: #161545;
+}
+.notifyTime{
+    font-size: 0.9rem;
+    margin-top: 10px;
+    color: #c8c8c9;
+}
+.notifyMessage{
+    color: #161545;
+    font-size: 0.8rem;
+}
+.textBold{
+    font-weight: 700;
+}
+
+
+

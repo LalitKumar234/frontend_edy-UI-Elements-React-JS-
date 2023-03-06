@@ -34,6 +34,7 @@
     border-left: 4px solid rgb(106, 194, 89);
     transform: translate(0px, 20px);
 }
+
 .check{
     color: rgb(106, 194, 89);
     display: flex;
@@ -41,3 +42,4 @@
     width: 30px;
     height: 30px;
 }
+

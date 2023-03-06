@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react'
 import { MdOutlineCopyAll } from 'react-icons/md';
 import { AiFillCheckCircle } from 'react-icons/ai';
@@ -27,29 +28,35 @@ const CopyToClipBoard = () => {
                 console.log(err);
             });
     }
+
     return (
-       
-            <div className='codeBox'>
-                <code className='copyContainer' >
-                    {code}
-                </code>
-                <div className='copyIcon' onClick={handleCopy}>
-                    <MdOutlineCopyAll size={25} />
-                </div>
-                <div className='copiedAlert'
-                    style={{
-                        visibility: `${isCopied ? 'visible' : 'hidden'}`,
-                        opacity: `${isCopied ? '1' : '0'}`,
-                        transform: `${isCopied ? `translate(0px, 0px)` : `translate(0px, 40px)`}`,
-                        transition: '0.3s ease-in-out',
-                    }}>
-                    <div className='check'>
-                        <AiFillCheckCircle size={25} />
-                    </div>
-                    Copied to clipboard
-                </div>
+
+        <div className='codeBox'>
+            <code className='copyContainer' >
+                {code}
+            </code>
+            <div className='copyIcon' onClick={handleCopy}>
+                <MdOutlineCopyAll size={25} />
             </div>
+            <div className='copiedAlert'
+                style={{
+                    visibility: `${isCopied ? 'visible' : 'hidden'}`,
+                    opacity: `${isCopied ? '1' : '0'}`,
+                    transform: `${isCopied ? `translate(0px, 0px)`
+                        : `translate(0px, 40px)`}`,
+                    transition: '0.3s ease-in-out',
+                }}>
+                <div className='check'>
+                    <AiFillCheckCircle size={25} />
+                </div>
+                Copied to clipboard
+            </div>
+        </div>
     )
 }
 
 export default CopyToClipBoard
+
+
+
+
