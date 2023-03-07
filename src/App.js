@@ -16,6 +16,7 @@ import AddTags from './Components/AddTags/AddTags';
 import ColorPicker from './Components/ColorPicker/ColorPicker';
 import CopyToClipBoard from './Components/CopyToClipBoard/CopyToClipBoard';
 import Notifications from './Components/Notifications/Notifications';
+import SkeletonLoader from './Components/SkeletonLoader/SkeletonLoader';
 
 function App() {
   return (
@@ -37,7 +38,8 @@ function App() {
       {/* <AddTags/> */}
       {/* <ColorPicker/> */}
       {/* <CopyToClipBoard/> */}
-      <Notifications/>
+      {/* <Notifications/> */}
+      <SkeletonLoader/>
     </div>
   );
 }

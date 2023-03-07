@@ -1,0 +1,124 @@
+.productsContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.pHeading {
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+.productNav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 4.5rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: white;
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    grid-gap: 20px;
+}
+
+.product {
+    width: auto;
+    height: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    padding: 0.5rem;
+    display: flex;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.productImage>img {
+    width: 7rem;
+    height: 6rem;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.productName,
+.description {
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+}
+
+.description {
+    font-size: 0.9rem;
+    display: -webkit-box;
+  max-width: 250px;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.price {
+    margin-top: 1rem;
+    background-color: rgb(250, 200, 75);
+    max-width: 5rem;
+    height: 2rem;
+    font-size: 0.9rem;
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.productsSkeletonContainer{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 20px;
+}
+.productSkeleton{
+    width: auto;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    padding: 0.5rem;
+    grid-gap: 20px;
+}
+.pImageSkeleton{
+    background-color: #c3c8cc;
+    border-radius: 8px;
+    width: 7rem;
+    height: 6rem;
+    animation: opacityAnim 1s linear 1s infinite alternate;
+}
+.textSkeleton{
+    width: 50%;
+}
+.descriptionTextSkeleton{
+    margin-top: 5px;
+    max-width: 200px;
+    width: 100%;
+    height: 1rem;
+    background-color: #c3c8cc;
+    border-radius: 20px;
+    animation: opacityAnim 1s linear 1s infinite alternate;
+}
+.short{
+    max-width: 100px;
+    width: 100%;
+}
+@keyframes opacityAnim{
+    from {
+        opacity: 0.4;
+    }
+    to{
+        opacity: 1;
+    }
+}

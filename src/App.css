@@ -6,12 +6,12 @@ body{
   background-color: #FAFAFE;
 
 /* background: linear-gradient(45deg, hsla(48, 78%, 82%, 1) 0%, hsla(340, 87%, 59%, 1) 100%); */
-  overflow: hidden;
+  overflow-x: hidden;
 }
 .App{
   margin-top: 5rem;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   
   
