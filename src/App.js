@@ -27,7 +27,7 @@ function App() {
       {/* <Button/> */}
       {/* <ModalPopUp/> */}
       {/* <Toggle/> */}
-      {/* <SideNav/> */}
+      <SideNav/>
       {/* <AddTag/> */}
       {/* <RadioGroup/> */}
       {/* <SearchBar/> */}
@@ -39,7 +39,7 @@ function App() {
       {/* <ColorPicker/> */}
       {/* <CopyToClipBoard/> */}
       {/* <Notifications/> */}
-      <SkeletonLoader/>
+      {/* <SkeletonLoader/> */}
     </div>
   );
 }

@@ -1,15 +1,22 @@
+.sideNavOuter{
+    position: fixed;
+    left: 0;
+    top: 0;
+}
 .sidenavContainer{
     width: 15rem;
-    border: 1px solid red;
-    height: auto;
+    background-color: white;
+    height: 100vh;
     font-family: 'Work Sans', sans-serif;
     padding: 1rem;
     position: relative;
     left: 0%;
+    position: relative;
 }
 .menuItems{
     margin: 0;
     padding: 0;
+    margin-top: 2rem;
 }
 .menu{
     list-style: none;
@@ -25,7 +32,7 @@
 .collapseIcon{
     right: -14px;
     position: absolute;
-    border: 1px solid black;
+    background-color: white;
     border-radius: 50%;
     width: 1.5rem;
     height: 1.5rem;
@@ -34,6 +41,7 @@
     justify-content: center;
     cursor: pointer;
     z-index: 50;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .menuItemContainer{
     display: flex;
@@ -53,9 +61,15 @@
 .menuIcon{
     margin-right: 7px;
 }
-.menu:active, .menu:hover{
+.menuText{
     font-weight: 500;
-    background-color: rgb(235, 251, 255);
+}
+.menu:hover {
+    color: #3661ED;
+    background-color: #EBF0FE;
+}
+.menu:hover .menuText{
+    color: #3661ED;
 }
 .uploadImg{
     margin-top: 5rem;
@@ -67,9 +81,11 @@
     padding: 10px 0;
 }
 .theme{
-    margin-top: 2rem;
+    position: absolute;
+    width: 14rem;
+    bottom: 50px;
     display: flex;
-    background-color: rgb(230, 230, 230);
+    background-color: #EBF0FE;
     border-radius: 20px;
     padding: 5px;
     color: white;
