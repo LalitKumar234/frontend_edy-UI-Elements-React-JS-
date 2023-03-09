@@ -1,0 +1,138 @@
+
+.phoneNumberContainer{
+    font-family: 'Work Sans', sans-serif;
+}
+.phoneInputBox{
+    width: 23rem;
+    height: 3rem;
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 4px;
+}
+.flagImg{
+    width: 1.5rem;
+}
+.flagContainer{
+    width: 3.5rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10px;
+    padding: 0 0.2rem;
+    cursor: pointer;
+    border-right: 1px solid rgb(229, 229, 229);
+}
+.countrySearch{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.8rem;
+    border-bottom: 1px solid rgb(228, 228, 228);
+    margin: 0 1rem;
+    grid-gap: 10px;
+}
+
+
+.countrySearch > input{
+    width: 100%;
+    font: inherit;
+    font-size: 1rem;
+    border: none;
+    background-color: transparent;
+}
+.countrySearch > input:focus{
+    outline: none;
+}
+.inputBoxContainer{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 4px;
+}
+.inputBoxContainer > p{
+    font-size: 0.8rem;
+}
+.inputNumber>span{
+    font-size: 0.9rem;
+}
+.inputNumber > input{
+    font: inherit;
+    font-size: 0.9rem;
+    border: none;
+    background-color: transparent;
+    margin-left: 5px
+}
+.inputNumber > input:focus{
+    outline: none;
+}
+
+
+
+
+
+.flagDropDownBox{
+    height: 20rem;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 13px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.flagDropDownBox::-webkit-scrollbar {
+    display: none;
+}
+.flagList{
+    grid-gap: 3px;
+    padding: 0.5rem;
+}
+
+
+
+.flag{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    grid-gap: 8px;
+    padding: 0.8rem;
+    margin: 0.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.flag>img{
+    width: 2rem;
+}
+.flagNames{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.flagNames>span{
+    color: grey;
+    font-size: 0.9rem;
+}
+.flagName{
+    width: 10rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    
+}
+.flag:hover, .flagActive{
+    background-color: #F3F5F9;
+}
+
+
+
+
+.flagActive .flagName{
+    font-weight: 500;
+}
+.flag:hover .flagName{
+    font-weight: 500;
+}
+
+
+

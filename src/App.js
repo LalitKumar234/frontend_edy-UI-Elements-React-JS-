@@ -17,6 +17,7 @@ import ColorPicker from './Components/ColorPicker/ColorPicker';
 import CopyToClipBoard from './Components/CopyToClipBoard/CopyToClipBoard';
 import Notifications from './Components/Notifications/Notifications';
 import SkeletonLoader from './Components/SkeletonLoader/SkeletonLoader';
+import PhoneNumberInput from './Components/PhoneNumberInput/PhoneNumberInput';
 
 function App() {
   return (
@@ -27,7 +28,7 @@ function App() {
       {/* <Button/> */}
       {/* <ModalPopUp/> */}
       {/* <Toggle/> */}
-      <SideNav/>
+      {/* <SideNav/> */}
       {/* <AddTag/> */}
       {/* <RadioGroup/> */}
       {/* <SearchBar/> */}
@@ -40,6 +41,7 @@ function App() {
       {/* <CopyToClipBoard/> */}
       {/* <Notifications/> */}
       {/* <SkeletonLoader/> */}
+      <PhoneNumberInput/>
     </div>
   );
 }
