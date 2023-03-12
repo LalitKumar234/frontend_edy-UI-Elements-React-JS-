@@ -1,0 +1,63 @@
+
+.linksContainer{
+    max-width: 30rem;
+    width: 100%;
+    font-family: 'Work Sans', sans-serif;
+}
+.addLinksButton{
+    width: 100%;
+    background-color: #8129d9;
+    font: inherit;
+    border: none;
+    color: white;
+    font-weight: 500;
+    padding: 10px 0;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    grid-gap: 10px;
+}
+.dragAndDropContainer{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.dragElement{
+    margin-top: 10px;
+    width: 100%;
+    height: 6rem;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    grid-gap: 7px;
+    cursor: grab;
+}
+
+
+
+.dragIcon{
+    margin-left: 10px;
+}
+.dragContent{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 7px;
+    justify-content: center;
+    margin-left: 10px;
+}
+.react-beautiful-dnd-draggable {
+    transition: transform 0.2s;
+}
+.dragTitle{
+    font-weight: 500;
+}
+.dragTitle, .dragUrl{
+    display: flex;
+    grid-gap: 8px;
+    align-items: center;
+}

@@ -19,6 +19,7 @@ import Notifications from './Components/Notifications/Notifications';
 import SkeletonLoader from './Components/SkeletonLoader/SkeletonLoader';
 import PhoneNumberInput from './Components/PhoneNumberInput/PhoneNumberInput';
 import Accordion from './Components/Accordion/Accordion';
+import DragAndDrop from './Components/DragAndDrop/DragAndDrop';
 
 function App() {
   return (
@@ -43,7 +44,8 @@ function App() {
       {/* <Notifications/> */}
       {/* <SkeletonLoader/> */}
       {/* <PhoneNumberInput/> */}
-      <Accordion/>
+      {/* <Accordion/> */}
+      <DragAndDrop/>
     </div>
   );
 }
