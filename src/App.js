@@ -18,6 +18,7 @@ import CopyToClipBoard from './Components/CopyToClipBoard/CopyToClipBoard';
 import Notifications from './Components/Notifications/Notifications';
 import SkeletonLoader from './Components/SkeletonLoader/SkeletonLoader';
 import PhoneNumberInput from './Components/PhoneNumberInput/PhoneNumberInput';
+import Accordion from './Components/Accordion/Accordion';
 
 function App() {
   return (
@@ -41,7 +42,8 @@ function App() {
       {/* <CopyToClipBoard/> */}
       {/* <Notifications/> */}
       {/* <SkeletonLoader/> */}
-      <PhoneNumberInput/>
+      {/* <PhoneNumberInput/> */}
+      <Accordion/>
     </div>
   );
 }
