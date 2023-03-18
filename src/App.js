@@ -20,6 +20,8 @@ import SkeletonLoader from './Components/SkeletonLoader/SkeletonLoader';
 import PhoneNumberInput from './Components/PhoneNumberInput/PhoneNumberInput';
 import Accordion from './Components/Accordion/Accordion';
 import DragAndDrop from './Components/DragAndDrop/DragAndDrop';
+import TabsV2 from './Components/TabsV2/TabsV2';
+import Pagination from './Components/Pagination/Pagination';
 
 function App() {
   return (
@@ -45,7 +47,10 @@ function App() {
       {/* <SkeletonLoader/> */}
       {/* <PhoneNumberInput/> */}
       {/* <Accordion/> */}
-      <DragAndDrop/>
+      {/* <DragAndDrop/> */}
+      {/* <Comment/> */}
+      {/* <TabsV2/> */}
+      <Pagination/>
     </div>
   );
 }

@@ -1,0 +1,123 @@
+.heading{
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 15px;
+    font-weight: 500;
+}
+
+tr {
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 5px;
+}
+
+tr:nth-child(1) {
+    background-color: transparent;
+    box-shadow:none;
+}
+td, th {
+    /* border: 1px solid #dddddd; */
+    text-align: left;
+    padding: 8px;
+}
+th{
+    font-size: 0.9rem;
+    margin: 2rem;
+}
+.userPic>img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: 2px solid #a2a1a1;
+}
+
+.userDetails {
+    display: flex;
+    align-items: center;
+    grid-gap: 10px;
+    width: 250px;
+}
+.userHeading{
+    width: 250px;
+    margin-left: 20px;
+}
+.userName {
+    font-weight: 600;
+}
+
+.userEmail {
+    font-size: 13px;
+    color: #a2a1a1;
+}
+
+.userBirth,
+.userPhone,
+.userAddress,
+.contact {
+    width: 150px;
+}
+.userAction{
+    width: 30px;
+    cursor: pointer;;
+}
+.contact,
+.userAction, .userPhone,
+.userAddress {
+    text-align: center;
+}
+.f-weight{
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+.contactCTA{
+    background-color: rgb(114, 114, 255);
+    font: inherit;
+    font-size: 0.8rem;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.pagination{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pageNumbers{
+    display: flex;
+    padding: 0 1rem;
+}
+.num{
+    width: 2rem;
+    height: 2rem;
+    display: grid;
+    place-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.num:hover, .numActive{
+    font-weight: 600;
+}
+.numActive{
+    background-color: rgb(114, 114, 255);
+    color: white;
+}
+.arrows{
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.arrows:hover{
+    transform: scale(1.3);
+}

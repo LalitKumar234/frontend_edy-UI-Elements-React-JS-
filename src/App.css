@@ -2,14 +2,14 @@ body{
   font-family: 'Work Sans', sans-serif;
   width: 100vw;
   height: 100vh;
-  /* background-color: #1E1E1E; */
-  background-color: #f3f3f1;
+  background-color: #f1f1f7;
+  /* background-color: #f3f3f1; */
 
 /* background: linear-gradient(45deg, hsla(48, 78%, 82%, 1) 0%, hsla(340, 87%, 59%, 1) 100%); */
   overflow-x: hidden;
 }
 .App{
-  margin-top: 10rem;
+  margin-top: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;

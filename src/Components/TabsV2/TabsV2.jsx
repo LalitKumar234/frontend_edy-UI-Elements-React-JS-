@@ -1,12 +1,13 @@
 
 import React, { useState } from 'react'
-// import './Tabs.css'
+import './TabsV2.css'
 
-const Tabs = () => {
+const TabsV2 = () => {
     const [isActive, setIsActive] = useState(1)
     const handleActive = (btn) => setIsActive(btn)
 
     return (
+        <div className="tabsV2Container">
         <div className='tabsContainer'>
             <div className="btnContainer">
                 <button className={`tabs ${isActive === 1 ? 'activeTab' : ''}`} 
@@ -39,17 +40,11 @@ const Tabs = () => {
                 </div>
             </div>}
         </div>
+        </div>
     )
 }
-export default Tabs
 
-
-
-
-
-
-
-
+export default TabsV2
 
 
 
