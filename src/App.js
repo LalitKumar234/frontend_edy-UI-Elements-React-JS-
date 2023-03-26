@@ -22,6 +22,7 @@ import Accordion from './Components/Accordion/Accordion';
 import DragAndDrop from './Components/DragAndDrop/DragAndDrop';
 import TabsV2 from './Components/TabsV2/TabsV2';
 import Pagination from './Components/Pagination/Pagination';
+import PinToTop from './Components/PinToTop/PinToTop';
 
 function App() {
   return (
@@ -50,7 +51,8 @@ function App() {
       {/* <DragAndDrop/> */}
       {/* <Comment/> */}
       {/* <TabsV2/> */}
-      <Pagination/>
+      {/* <Pagination/> */}
+      <PinToTop/>
     </div>
   );
 }

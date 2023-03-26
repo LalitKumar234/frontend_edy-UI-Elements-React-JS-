@@ -1,0 +1,96 @@
+.pinContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pinToTopItems{
+    width: 50rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.postCards{
+    width: 13rem;
+    border-radius: 10px;
+    background-color: #000002;
+    padding: 1rem;
+}
+.userName{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.userName > p{
+    font-size: 0.8rem;
+    color: white;
+}
+.displayPic >img{
+    width: 2rem;
+    height: 2em;
+    background-color: white;
+    border-radius: 50%;
+}
+.postImage>img{
+    width: 100%;
+    height: 8rem;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.aboutPost{
+    margin-top: 1rem;
+}
+.aboutPost > span{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-weight: 600;
+}
+.postTags{
+    margin-top: 0.7rem;
+    color: black;
+    display: flex;
+    gap: 5px;
+}
+.postTags > li{
+    font-size: 0.7rem;
+    background-color: #CDC9FC;
+    border-radius: 20px;
+    padding: 0.3rem 0.5rem;
+    font-weight: 500;
+}
+.postHeader{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-bottom: 1rem;
+}
+.postHeader > span{
+    cursor: pointer;
+}
+.pinDropDown{
+    position: absolute;
+    right: 0;
+    top: 2rem;
+    width: 7rem;
+    border-radius: 5px;
+    padding: 0.7rem;
+    background-color: rgb(247, 247, 247);
+}
+.pinDropDown{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.pinDropDown > span{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
