@@ -2,14 +2,11 @@ body{
   font-family: 'Work Sans', sans-serif;
   width: 100vw;
   height: 100vh;
-  background-color: #FFC700;
-  /* background-color: #f3f3f1; */
+  /* background-color: #FFC700; */
+  background-color: #2B2A3C;
 
 /* background: linear-gradient(45deg, hsla(48, 78%, 82%, 1) 0%, hsla(340, 87%, 59%, 1) 100%); */
   overflow-x: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .App{
   display: flex;

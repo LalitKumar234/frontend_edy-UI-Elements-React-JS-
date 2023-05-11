@@ -29,7 +29,12 @@ const PinToTop = () => {
     }
   }
   useEffect(() => {
-    console.log(postItems)
+    postItems.map((post)=>{
+      if(post.pinned){
+        
+      }
+    })
+    
     //To render the component whenever the postItems state changes
   }, [postItems])
 

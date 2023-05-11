@@ -1,0 +1,67 @@
+.infinite-scrolling{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    padding-bottom: 10rem;
+}
+.infinite-scrolling>h2{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: white;
+}
+
+.inf-container{
+    /* border: 1px solid red; */
+    max-width: 1070px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+
+}
+.content-card{
+    width: 17rem;
+    height: 18rem;
+    background-color: #39384e;
+    -webkit-box-shadow: 10px 10px 20px 4px rgba(35,33,54,1);
+    -moz-box-shadow: 10px 10px 20px 4px rgba(35,33,54,1);
+    box-shadow: 10px 10px 20px 4px rgba(35,33,54,1);
+    border-radius: 10px;
+    color: white;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    align-items: center;
+    gap: 10px;
+}
+.card-header > h4{
+    width: 50px;
+    height: 50px;
+    background-color: #F09667;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.trips{
+    background-color: #F09667;
+    border-radius: 20px;
+    font-weight: 600;
+    width: fit-content;
+    padding: 1rem;
+    font-size: 1.4rem;
+}
+.loader{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -23,6 +23,7 @@ import DragAndDrop from './Components/DragAndDrop/DragAndDrop';
 import TabsV2 from './Components/TabsV2/TabsV2';
 import Pagination from './Components/Pagination/Pagination';
 import PinToTop from './Components/PinToTop/PinToTop';
+import InfiniteScrolling from './Components/InfiniteScrolling/InfiniteScrolling';
 
 function App() {
   return (
@@ -52,7 +53,8 @@ function App() {
       {/* <Comment/> */}
       {/* <TabsV2/> */}
       {/* <Pagination/> */}
-      <PinToTop/>
+      {/* <PinToTop/> */}
+      <InfiniteScrolling/>
     </div>
   );
 }

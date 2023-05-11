@@ -11,6 +11,7 @@
     "react-beautiful-dnd": "^13.1.1",
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
+    "react-loader-spinner": "^5.3.4",
     "react-scripts": "5.0.1",
     "react-world-flags": "^1.5.1",
     "web-vitals": "^2.1.4"
